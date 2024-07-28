@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+.btn-primary {
+  @apply bg-purple-600 hover:bg-purple-700;
+}
+
+.tag {
+  @apply inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full;
+}
